@@ -1,0 +1,30 @@
+ AppBar(
+          leading:  IconButton(
+              color: Colors.black45,
+              icon: Icon(Icons.menu), 
+              onPressed: () {
+                print("menu à rajouter"); 
+              },
+            ),
+          backgroundColor: Colors.transparent,
+          elevation: 0,
+          centerTitle: true,
+          title: Text("Calculatrice avec Flutter", 
+          style: GoogleFonts.rubik(
+            textStyle: TextStyle(
+              color: Colors.blueGrey, 
+              fontSize: 20, 
+            )
+          )), 
+          //les icons, buttons
+          actions: <Widget> [
+            IconButton(
+              color: Colors.black45,
+              icon: Icon(Icons.exit_to_app), 
+              onPressed: () {
+                exit(0);  
+              },
+            ), 
+
+          ],
+        ),

@@ -1,0 +1,7 @@
+à ajouter, améliorer,  à refaire : 
+
+-- pas de beugs dans la console (au niveau des images, clipper...), 
+-- ajouter un menu
+-- fonctionnalité mode nuit ou jour changement couleur background et des textes  =>
+(pour les textes des bouttons, condition avec des booléennes)
+(pour le derrière, utiliser un AnimatedContainer ou une Tween Animation (Tween<double>(), ou ColorTween()).
